@@ -1,9 +1,9 @@
 import React from 'react';
-import MintBox from './components/mintBox';
+import Banner from './components/banner';
 
 function App() {
   return (
-      <MintBox/>
+      <Banner/>
   );
 }
 

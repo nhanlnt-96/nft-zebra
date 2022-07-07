@@ -1,0 +1,18 @@
+@import "../../styles/rwd";
+
+.banner {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(251, 213, 1);
+  background: linear-gradient(90deg, rgba(251, 213, 1, 1) 0%, rgba(251, 213, 1, 1) 11%, rgba(250, 147, 0, 1) 100%);
+
+  &-triangle__corner {
+    width: 75%;
+    height: 90%;
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #000000;
+  }
+}
