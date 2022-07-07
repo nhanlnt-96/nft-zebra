@@ -1,9 +1,10 @@
-import React from 'react';
-import Banner from './components/banner';
+import "./styles/index.scss";
+import React from "react";
+import Banner from "./components/banner";
 
 function App() {
   return (
-      <Banner/>
+    <Banner/>
   );
 }
 

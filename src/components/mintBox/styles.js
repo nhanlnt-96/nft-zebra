@@ -1,21 +1,19 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const truncate = (input, len) =>
-    input.length > len ? `${input.substring(0, len)}...` : input;
+  input.length > len ? `${input.substring(0, len)}...` : input;
 
 export const StyledButton = styled.button`
   padding: 10px;
   border-radius: 50px;
   border: none;
-  background-color: var(--secondary);
+  background: rgb(251, 213, 1);
+  background: linear-gradient(90deg, rgba(251, 213, 1, 1) 0%, rgba(251, 213, 1, 1) 11%, rgba(250, 147, 0, 1) 100%);
   padding: 10px;
   font-weight: bold;
   color: var(--secondary-text);
   width: 100px;
   cursor: pointer;
-  box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
-  -webkit-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
-  -moz-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
 
   :active {
     box-shadow: none;
@@ -28,7 +26,7 @@ export const StyledRoundButton = styled.button`
   padding: 10px;
   border-radius: 100%;
   border: none;
-  background-color: var(--primary);
+  background-color: rgba(251, 213, 1, 1);
   padding: 10px;
   font-weight: bold;
   font-size: 15px;
@@ -87,6 +85,6 @@ export const StyledImg = styled.img`
 `;
 
 export const StyledLink = styled.a`
-  color: var(--secondary);
+  color: rgba(250, 147, 0, 1);
   text-decoration: none;
 `;
